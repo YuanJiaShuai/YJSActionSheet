@@ -15,6 +15,9 @@
 		18FBD7821D9A4B8000D648A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FBD7801D9A4B8000D648A3 /* LaunchScreen.storyboard */; };
 		18FBD78D1D9A4B8100D648A3 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBD78C1D9A4B8100D648A3 /* _______Tests.m */; };
 		18FBD7981D9A4B8100D648A3 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBD7971D9A4B8100D648A3 /* _______UITests.m */; };
+		18FBD7AA1D9A4C2500D648A3 /* YJSActionSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBD7A91D9A4C2500D648A3 /* YJSActionSheetItem.m */; };
+		18FBD7AD1D9A50D800D648A3 /* YJSActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBD7AC1D9A50D800D648A3 /* YJSActionSheet.m */; };
+		18FBD7AF1D9A74BC00D648A3 /* tip.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18FBD7AE1D9A74BC00D648A3 /* tip.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		18FBD7931D9A4B8100D648A3 /* 自定义弹出界面UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义弹出界面UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FBD7971D9A4B8100D648A3 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		18FBD7991D9A4B8100D648A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FBD7A81D9A4C2500D648A3 /* YJSActionSheetItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJSActionSheetItem.h; sourceTree = "<group>"; };
+		18FBD7A91D9A4C2500D648A3 /* YJSActionSheetItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJSActionSheetItem.m; sourceTree = "<group>"; };
+		18FBD7AB1D9A50D800D648A3 /* YJSActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJSActionSheet.h; sourceTree = "<group>"; };
+		18FBD7AC1D9A50D800D648A3 /* YJSActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJSActionSheet.m; sourceTree = "<group>"; };
+		18FBD7AE1D9A74BC00D648A3 /* tip.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tip.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		18FBD7711D9A4B8000D648A3 /* 自定义弹出界面 */ = {
 			isa = PBXGroup;
 			children = (
+				18FBD7AE1D9A74BC00D648A3 /* tip.gif */,
 				18FBD7751D9A4B8000D648A3 /* AppDelegate.h */,
 				18FBD7761D9A4B8000D648A3 /* AppDelegate.m */,
 				18FBD7781D9A4B8000D648A3 /* ViewController.h */,
@@ -110,6 +119,10 @@
 				18FBD7801D9A4B8000D648A3 /* LaunchScreen.storyboard */,
 				18FBD7831D9A4B8000D648A3 /* Info.plist */,
 				18FBD7721D9A4B8000D648A3 /* Supporting Files */,
+				18FBD7A81D9A4C2500D648A3 /* YJSActionSheetItem.h */,
+				18FBD7A91D9A4C2500D648A3 /* YJSActionSheetItem.m */,
+				18FBD7AB1D9A50D800D648A3 /* YJSActionSheet.h */,
+				18FBD7AC1D9A50D800D648A3 /* YJSActionSheet.m */,
 			);
 			path = "自定义弹出界面";
 			sourceTree = "<group>";
@@ -246,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FBD7AF1D9A74BC00D648A3 /* tip.gif in Resources */,
 				18FBD7821D9A4B8000D648A3 /* LaunchScreen.storyboard in Resources */,
 				18FBD77F1D9A4B8000D648A3 /* Assets.xcassets in Resources */,
 				18FBD77D1D9A4B8000D648A3 /* Main.storyboard in Resources */,
@@ -274,8 +288,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18FBD77A1D9A4B8000D648A3 /* ViewController.m in Sources */,
+				18FBD7AD1D9A50D800D648A3 /* YJSActionSheet.m in Sources */,
 				18FBD7771D9A4B8000D648A3 /* AppDelegate.m in Sources */,
 				18FBD7741D9A4B8000D648A3 /* main.m in Sources */,
+				18FBD7AA1D9A4C2500D648A3 /* YJSActionSheetItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
